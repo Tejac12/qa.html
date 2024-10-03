@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        header {
+            background-color: rgb(106, 194, 248);
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        h1 {
+            background-color: rgb(134, 122, 236);
+            color: white;
+            text-align: center;
+        }
+
+        details {
+            background-color: #7af587;
+            padding: 4px;
+            border: 1px solid black;
+            cursor: pointer;
+            margin: 10px;
+        }
+
+        summary {
+            color: rgb(3, 16, 16);
+        }
+    </style>
+</head>
+
+<body>
+    <header>HTML interview Preparation</header>
+    <details>
+        <summary>what is Html ?</summary>
+        <p>HTML, or HyperText Markup Language, is a markup language that defines the structure and content of a web
+            page. </p>
+    </details>
+    <details>
+        <summary>what is DOCTYPE in Html?</summary>
+        <p>A DOCTYPE, or document type declaration, is a line of code that tells a web browser what version of HTML a
+            document is written in.</p>
+    </details>
+    <details>
+        <summary>What is tag? how many types of tags?</summary>
+        <p>The html tag represents the root of an HTML document.There are two kinds of HTML tags: paired and unpaired.
+        </p>
+    </details>
+    <details>
+        <summary>what is element in Html?</summary>
+        <p>An HTML element is a section of an HTML document that represents a part of a web page's content</p>
+    </details>
+    <details>
+        <summary>what is difference b/w the tag & element?</summary>
+        <p>Tags are used to define the beginning and end of an element, while elements consist of the opening tag,
+            content, and closing tag.</p>
+    </details>
+    <details>
+        <summary>what is attribute?</summary>
+        <p>An HTML attribute is a piece of markup language used to adjust the behavior or display of an HTML element.
+        </p>
+    </details>
+    <details>
+        <summary>what is diff b/w the href & src attribute ?
+        </summary>
+        <p>href: Is a reference to information for the current page ie css info for the page style or link to another
+            page. Page Parsing is not stopped. src: Is a resource to be added/loaded to the page as in images or
+            javascript.</p>
+    </details>
+    <details>
+        <summary>what is a marquee tag?</summary>
+        <p>The HTML marquee tag is a non-standard tag that makes text or images scroll automatically across a web page.
+        </p>
+    </details>
+    <details>
+        <summary>define list types in html?</summary>
+        <p>There are 3 types of list . they are
+            unordered list:An unordered list starts with the ul tag. Each list item starts with the li tag.
+            ordered list:An ordered list starts with the ol tag. Each list item starts with the li tag.
+            description list:A description list is a list of terms, with a description of each term.
+            The dl tag defines the description list, the dt tag defines the term (name), and the dd tag describes each
+            term:
+        </p>
+    </details>
+    <details>
+        <summary>what are the formatting tags?</summary>
+        <p>Formatting tags are used to change the appearance of text in a document, such as its size, color, or style.
+        </p>
+    </details>
+    <details>
+        <summary>what are the b & strong tags?</summary>
+        <p>The strong element is for content that is of greater importance, while the b element is used to draw
+            attention to text without indicating that it's more important</p>
+    </details>
+    <details>
+        <summary>what is seo?</summary>
+
+        <p>earch engine optimization (SEO) is a practice that helps websites rank higher in search engine results pages
+            (SERPs) to attract more traffic.</p>
+    </details>
+    <details>
+        <summary>How many type of element we have in html?</summary>
+        <p>There are three kinds of HTML elements: normal elements, raw text elements, and void elements. </p>
+    </details>
+    <details>
+        <summary>what is the difference b/w block and inline elements?</summary>
+        <table border="1">
+            <thead style="border: 1px solid black;">
+                <tr>
+                    <th>Block </th>
+                    <th>Inline</th>
+                </tr>
+            <tbody style="border: 1px solid black;">
+                <tr>
+                    <td>These elements start on a new line and take up the full width of the page. They appear stacked
+                        on top of each other, with each new element starting on a new line. Examples of block elements
+                        include div, nav, header, section, and footer.</td>
+                    <td>These elements appear in line with the elements they are placed next to and do not start on a
+                        new line. They only take up as much width as their content requires. Examples of inline elements
+                        include span, input, label, select, and a tags..</td>
+                </tr>
+            </tbody>
+            </thead>
+        </table>
+    </details>
+    <details>
+        <summary>what is semantic vs non semantic elements?</summary>
+        <p>In HTML (Hypertext Markup Language), semantic elements clearly indicate the meaning of their content, while
+            non-semantic elements don't.
+            Semantic:These elements provide context and improve the user experience. They help search engines understand
+            the content, and make it easier for developers to maintain. Examples of semantic elements include form,
+            table, and article. <br>
+            non-semantic:These elements don't provide any information about their content, and are used for styling
+            purposes. Examples of non-semantic elements include div ,etc.
+        </p>
+    </details>
+    <details>
+        <summary>diff b/w div and span ?</summary>
+        <table border="1">
+            <thead style="border: 1px solid black;">
+                <tr>
+                    <th>div</th>
+                    <th>span</th>
+                </tr>
+            <tbody style="border: 1px solid black;">
+                <tr>
+                    <td>Used to group and style larger blocks of code, such as paragraphs or sections, on a web page.
+                        Div tags are often used for layout purposes, such as structuring a page with CSS Flexbox or Grid
+                        systems, or manipulating sections with JavaScript.</td>
+                    <td>Used to group and style inline elements, such as short strings or individual words, without
+                        creating a new line. Span tags are often used to apply styles or target a section of text or
+                        inline elements with JavaScript.</td>
+                </tr>
+            </tbody>
+            </thead>
+        </table>
+    </details>
+    <details>
+        <summary>Table vs li (research)</summary>
+        <p>HTML tables should be used when you have tabular data that needs to be arranged in rows and columns, with a
+            clear relationship between the cells. On the other hand, HTML lists should be used when you have sequential
+            or hierarchical data that needs to be ordered or unordered, with a clear relationship between the items.</p>
+    </details>
+    <details>
+        <summary>what are meta tags?</summary>
+        <p>eta tags are HTML tags that provide information about a page's content to search engines and other clients.
+            They are usually added to the head section of an HTML page and are only visible in the page's source code.
+        </p>
+    </details>
+    <details>
+        <summary>what is use of forms in html?</summary>
+        <p>HTML forms are used to collect user input and send it to a server for processing</p>
+    </details>
+    <details>
+        <summary>what are form attribute</summary>
+        <p>HTML form attributes define the behavior and properties of a form element.</p>
+    </details>
+    <details>
+        <summary>what are iframes?</summary>
+        <p>An iframe, or inline frame, is an HTML element that allows you to embed another HTML document within your own
+            page. </p>
+    </details>
+    <details>
+        <summary>what is the use of an iframe?</summary>
+        <p>An inline frame (iframe) is a HTML element that loads another HTML page within the document. It essentially
+            puts another webpage within the parent page. They are commonly used for advertisements, embedded videos, web
+            analytics and interactive content.</p>
+    </details>
+    <details>
+        <summary>what are the advantages of collapsing in white space?</summary>
+        <p>While you are writing the HTML for your web page you want the code to be more understandable/readable to the
+            users. <br>
+            Collapsing white spaces decreases the transmission time between the server and the client because collapsing
+            features remove unnecessary bytes that are occupied by the white spaces. <br>
+            By mistake, if you leave extra white space, the browser will ignore it and display the UI perfectly.</p>
+    </details>
+    <details>
+        <summary>what are the html entities?</summary>
+        <p>HTML entities are character sequences that represent other characters in HTML. </p>
+    </details>
+    <details>
+        <summary>what are the features of html5?</summary>
+        <p>Semantic Elements
+            Audio and Video Support
+            Canvas Elements
+            Geolocation API
+            Local Storage
+            Responsive Images
+            Web Workers
+            Drag and Drop API
+            Form Enhancements
+            Web Sockets
+            Micro Data
+            Cross Document Messaging</p>
+    </details>
+    <details>
+        <summary>Are the elements & tags are same thing in html?</summary>
+        <p>HTML tags and elements are not the same thing. A HTML tag is like a container for either content or other
+            HTML tags. A HTML element consists of the start tag + content tag + end tag. Some HTML tags do not have end
+            tags like img hence in those cases HTML element will consist of start tag + content</p>
+    </details>
+
+    <h1>Git interview questions</h1>
+    <details>
+        <summary>what is git?</summary>
+        <p>Git is a free, open-source version control system (VCS) that helps track changes to code and projects. </p>
+    </details>
+    <details>
+        <summary>
+            what is the difference b/w git vs github ?
+        </summary>
+        <table border="1">
+            <thead style="border: 1px solid black;">
+                <tr>
+                    <th>Git</th>
+                    <th>Github</th>
+                </tr>
+            <tbody style="border: 1px solid black;">
+                <tr style="border: 1px solid black;">
+                    <td>Instslled locally</td>
+                    <td>Hosted in the cloud</td>
+                </tr>
+                <tr style="border: 1px solid black;">
+                    <td>focused on a version control and code sharing</td>
+                    <td>focused on centralized source code hosting</td>
+                </tr>
+                <tr>
+                    <td>No user management features</td>
+                    <td>built-in user management</td>
+                </tr>
+            </tbody>
+            </thead>
+        </table>
+    </details>
+    <details>
+        <summary>what is git repository?</summary>
+        <p>A Git repository is a virtual storage of your project. It allows you to save versions of your code, which you
+            can access when needed.</p>
+    </details>
+    <details>
+        <summary>what is local repository and git hub repository?</summary>
+        <p>local repository:A local repository is a directory on a computer that is used to store and manage artifacts,
+            such as temporary build artifacts and cached remote downloads.
+            github repo:A repository is the most basic element of GitHub. It's a place where you can store your code,
+            your files, and each file's revision history.</p>
+    </details>
+    <details>
+        <summary>what is command line to initialise the git to your local directory</summary>
+        <p>Git init</p>
+    </details>
+    <details>
+
+        <summary>what is the command to use in order to move the change to staged area?</summary>
+        <p>The git add command adds a change in the working directory to the staging area.</p>
+    </details>
+    <details>
+        <summary>what is the command to use to commit all the staged change to local repo?</summary>
+        <p>The git commit command captures a snapshot of the project's currently staged changes.</p>
+    </details>
+    <details>
+        <summary>what is the difference b/w push & pull in git?</summary>
+        <p>push:The git push command is used to upload local repository content to a remote repository.
+            pull:The Git pull command is a native command that downloads changes from a remote repository and integrates
+            them into the local branch.
+        </p>
+    </details>
+    <details>
+        <summary>what is flow in git</summary>
+        <p>Flow in Git refers to a branching strategy that helps manage releases and streamline the software development
+            process</p>
+    </details>
+    <details>
+        <summary>what is git status?</summary>
+        <p>The git status command displays the state of the working directory and the staging area</p>
+    </details>
+    <details>
+        <summary>what is the command which we need to use to create a branch? </summary>
+        <p>git branch command to use to create a branch name.</p>
+    </details>
+    <details>
+        <summary>what is the command to check the branches in git repo?</summary>
+        <p>git branch -a</p>
+    </details>
+    <details>
+        <summary>what is the command to switch b/w the branches?</summary>
+        <p>The git checkout command lets you navigate between the branches created by git branch. </p>
+    </details>
+    <details>
+        <summary>what is the command to check number of commits?</summary>
+        <p>Using git rev-list Command</p>
+    </details>
+    <details>
+        <summary>what is a diff b/w cd command & why we need to use it?</summary>
+        <p>The command cd changes directories.to navigate a specific directory.</p>
+    </details>
+    <details>
+        <summary>ls command in git?</summary>
+        <p>The ls command lists the current directory contents and by default will not show hidden files.</p>
+    </details>
+    <details>
+        <summary>what is conflict in git?</summary>
+        <p>A conflict in Git occurs when two or more developers make changes to the same file or line, or when one
+            developer deletes a file while another is modifying it.</p>
+    </details>
+</body>
+
+</html>
